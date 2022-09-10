@@ -87,7 +87,7 @@
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans  &kp AMPERSAND    &kp GRAVE  &kp TILDE  &trans
  &trans  &trans  &trans  &trans  &trans  &trans     &kp DOLLAR  &kp PERCENT  &kp CARET  &trans
- &trans  &trans  &trans  &trans  &trans  &trans         &trans       &kp AT   &kp HASH  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans       &kp EXCL       &kp AT   &kp HASH  &trans
                          &trans  &trans  &trans         &trans
             >;
         };
