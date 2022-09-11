@@ -58,19 +58,19 @@
 
         BASE {
             bindings = <
-        &kp Q   &kp W   &kp F   &kp P      &kp B      &kp J      &kp L      &kp U    &kp Y           &kp SQT
-        &kp A   &kp R   &kp S   &kp T      &kp G      &kp M      &kp N      &kp E    &kp I             &kp O
- &mt LSHIFT Z   &kp X   &kp C   &kp D      &kp V      &kp K      &kp H  &kp COMMA  &kp DOT  &mt LSHIFT SLASH
-                                &mo 2  &kp LCTRL  &kp SPACE  &lt 1 RET
+        &kp Q   &kp W   &kp F      &kp P   &kp B      &kp J            &kp L      &kp U    &kp Y           &kp SQT
+        &kp A   &kp R   &kp S      &kp T   &kp G      &kp M            &kp N      &kp E    &kp I             &kp O
+ &mt LSHIFT Z   &kp X   &kp C      &kp D   &kp V      &kp K            &kp H  &kp COMMA  &kp DOT  &mt LSHIFT SLASH
+                               &kp SPACE   &mo 2  &kp ENTER  &lt 1 BACKSPACE
             >;
         };
 
         EXT {
             bindings = <
-      &none      &none         &none         &none        &none      &none     &none     &none      &none  &kp BACKSPACE
- &caps_word  &sk RCTRL  &sk LEFT_ALT  &sk LEFT_GUI        &none   &kp LEFT  &kp DOWN  &kp DOWN  &kp RIGHT          &none
-      &none  &kp K_CUT    &kp K_COPY         &none  &kp K_PASTE      &none     &none     &none      &none          &none
-                                            &trans        &none  &kp ENTER     &none
+      &none      &none         &none         &none        &none     &none     &none   &none      &none  &kp BACKSPACE
+ &caps_word  &sk RCTRL  &sk LEFT_ALT  &sk LEFT_GUI        &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT          &none
+      &none  &kp K_CUT    &kp K_COPY         &none  &kp K_PASTE     &none     &none   &none      &none          &none
+                                            &trans        &mo 3     &none     &none
             >;
         };
 
@@ -79,7 +79,7 @@
   &kp EXCL     &kp AT  &kp HASH  &kp COLON  &kp SEMICOLON     &kp EQUAL        &kp N7        &kp N8  &kp N9   &kp PLUS
   &kp BSLH   &kp PIPE  &kp LBRC   &kp LPAR       &kp LBKT  &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp N6  &kp MINUS
  &kp MINUS  &kp UNDER  &kp RBRC   &kp RPAR       &kp RBKT        &kp N0        &kp N1        &kp N2  &kp N3   &kp FSLH
-                                     &none          &mo 3         &none        &trans
+                                     &none          &none         &none         &mo 3
             >;
         };
 
