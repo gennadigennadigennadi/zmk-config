@@ -30,7 +30,7 @@
 
         combo_ralt {
             timeout-ms = <50>;
-            key-positions = <17 16>;
+            key-positions = <17 18>;
             bindings = <&kp RALT>;
         };
 
@@ -48,7 +48,7 @@
 
         combo_rgui {
             timeout-ms = <50>;
-            key-positions = <17 18>;
+            key-positions = <17 16>;
             bindings = <&kp RGUI>;
         };
     };
