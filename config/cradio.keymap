@@ -58,18 +58,18 @@
 
         BASE {
             bindings = <
-        &kp Q   &kp W   &kp F      &kp P   &kp B      &kp J            &kp L      &kp U    &kp Y           &kp SQT
-        &kp A   &kp R   &kp S      &kp T   &kp G      &kp M            &kp N      &kp E    &kp I             &kp O
- &mt LSHIFT Z   &kp X   &kp C      &kp D   &kp V      &kp K            &kp H  &kp COMMA  &kp DOT  &mt LSHIFT SLASH
-                               &kp SPACE   &mo 2  &kp ENTER  &lt 1 BACKSPACE
+        &kp Q   &kp W   &kp F        &kp P      &kp B      &kp J            &kp L      &kp U    &kp Y           &kp SQT
+        &kp A   &kp R   &kp S        &kp T      &kp G      &kp M            &kp N      &kp E    &kp I             &kp O
+ &mt LSHIFT Z   &kp X   &kp C        &kp D      &kp V      &kp K            &kp H  &kp COMMA  &kp DOT  &mt LSHIFT SLASH
+                               &lt 2 SPACE  &lt 3 TAB  &kp ENTER  &lt 1 BACKSPACE
             >;
         };
 
         EXT {
             bindings = <
- &kp EXCLAMATION  &kp AT_SIGN      &kp HASH    &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp ASTERISK      &none    &none
-      &caps_word    &sk RCTRL  &sk LEFT_ALT  &sk LEFT_GUI        &none   &kp LEFT       &kp DOWN        &kp UP  &kp RIGHT  &kp DEL
-           &none    &kp K_CUT    &kp K_COPY         &none  &kp K_PASTE      &none          &none         &none      &none    &none
+ &kp EXCLAMATION  &kp AT_SIGN      &kp HASH    &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp MINUS  &kp PLUS
+      &caps_word    &sk RCTRL  &sk LEFT_ALT  &sk LEFT_GUI        &none   &kp LEFT       &kp DOWN        &kp UP  &kp RIGHT   &kp DEL
+           &none    &kp K_CUT    &kp K_COPY         &none  &kp K_PASTE      &none          &none         &none      &none     &none
                                                    &trans        &mo 3      &none          &none
             >;
         };
