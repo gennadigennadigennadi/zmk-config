@@ -90,10 +90,10 @@
 
         Sym2 {
             bindings = <
- &kp LG(TAB)  &trans  &trans  &trans  &trans  &trans  &kp AMPERSAND  &kp ASTERISK  &kp TILDE      &kp GRAVE
-      &trans  &trans  &trans  &trans  &trans  &trans     &kp DOLLAR   &kp PERCENT  &kp CARET  &kp SEMICOLON
-      &trans  &trans  &trans  &trans  &trans  &trans       &kp EXCL        &kp AT   &kp HASH   &kp QUESTION
-                              &trans   &none  &trans         &trans
+ &trans  &trans  &trans  &trans  &trans  &trans  &kp AMPERSAND  &kp ASTERISK  &kp TILDE      &kp GRAVE
+ &trans  &trans  &trans  &trans  &trans  &trans     &kp DOLLAR   &kp PERCENT  &kp CARET  &kp SEMICOLON
+ &trans  &trans  &trans  &trans  &trans  &trans       &kp EXCL        &kp AT   &kp HASH   &kp QUESTION
+                         &trans   &none  &trans         &trans
             >;
         };
     };
