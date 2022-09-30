@@ -66,15 +66,15 @@
         &kp Q   &kp W   &kp F        &kp P    &kp B      &kp J            &kp L      &kp U    &kp Y           &kp SQT
         &kp A   &kp R   &kp S        &kp T    &kp G      &kp M            &kp N      &kp E    &kp I             &kp O
  &mt LSHIFT Z   &kp X   &kp C        &kp D    &kp V      &kp K            &kp H  &kp COMMA  &kp DOT  &mt LSHIFT SLASH
-                               &lt 2 SPACE  &kp TAB  &kp ENTER  &lt 1 BACKSPACE
+                               &lt 1 SPACE  &kp TAB  &kp ENTER  &lt 2 BACKSPACE
             >;
         };
 
         EXT {
             bindings = <
- &kp EXCLAMATION  &kp AT_SIGN      &kp HASH    &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND   &kp ASTERISK         &kp MINUS  &kp EQUAL
-         &kp ESC    &sk RCTRL  &sk LEFT_ALT  &sk LEFT_GUI   &kp LSHIFT   &kp LEFT       &kp DOWN         &kp UP         &kp RIGHT  &kp COLON
-       &kp LC(Z)    &kp LG(X)     &kp LG(C)         &none    &kp LG(V)  &kp COLON      &kp EQUAL  &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS
+ &kp EXCLAMATION  &kp AT_SIGN      &kp HASH    &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND   &kp ASTERISK         &kp MINUS      &kp EQUAL
+         &kp ESC    &sk RCTRL  &sk LEFT_ALT  &sk LEFT_GUI   &kp LSHIFT   &kp LEFT       &kp DOWN         &kp UP         &kp RIGHT  &kp SEMICOLON
+       &kp LC(Z)    &kp LG(X)     &kp LG(C)         &none    &kp LG(V)  &kp COLON      &kp EQUAL  &kp LESS_THAN  &kp GREATER_THAN      &kp MINUS
                                                     &mo 3       &trans      &none          &none
             >;
         };
