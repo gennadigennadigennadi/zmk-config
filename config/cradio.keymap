@@ -61,21 +61,24 @@
     macros {
         small_arrow: small_arrow {
             compatible = "zmk,behavior-macro";
-            label = "new_macro";
+            label = "small_arrow";
             #binding-cells = <0>;
             bindings = <&kp MINUS &kp GREATER_THAN>;
+            wait-ms = <1>;
         };
         big_arrow: big_arrow {
             compatible = "zmk,behavior-macro";
-            label = "new_macro";
+            label = "big_arrow";
             #binding-cells = <0>;
             bindings = <&kp EQUAL &kp GREATER_THAN>;
+            wait-ms = <1>;
         };
         double_colon: double_colon {
             compatible = "zmk,behavior-macro";
-            label = "new_macro";
+            label = "double_colon";
             #binding-cells = <0>;
             bindings = <&kp COLON &kp COLON>;
+            wait-ms = <1>;
         };
     };
 
