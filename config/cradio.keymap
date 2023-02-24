@@ -88,37 +88,37 @@
 
         BASE {
             bindings = <
-        &kp Q   &kp W   &kp F        &kp P    &kp B      &kp J            &kp L      &kp U    &kp Y           &kp SQT
-        &kp A   &kp R   &kp S        &kp T    &kp G      &kp M            &kp N      &kp E    &kp I             &kp O
- &mt LSHIFT Z   &kp X   &kp C        &kp D    &kp V      &kp K            &kp H  &kp COMMA  &kp DOT  &mt LSHIFT SLASH
-                               &lt 1 SPACE  &kp TAB  &kp ENTER  &lt 2 BACKSPACE
+       &kp Q  &kp W  &kp F        &kp P    &kp B      &kp J            &kp L      &kp U    &kp Y           &kp SQT
+       &kp A  &kp R  &kp S        &kp T    &kp G      &kp M            &kp N      &kp E    &kp I             &kp O
+&mt LSHIFT Z  &kp X  &kp C        &kp D    &kp V      &kp K            &kp H  &kp COMMA  &kp DOT  &mt LSHIFT SLASH
+                            &lt 1 SPACE  &kp TAB  &kp ENTER  &lt 2 BACKSPACE
             >;
         };
 
         EXT {
             bindings = <
- &kp EXCLAMATION  &kp AT_SIGN      &kp HASH    &kp DOLLAR  &kp PERCENT      &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp TILDE      &kp GRAVE
-         &kp ESC    &sk RCTRL  &sk LEFT_ALT  &sk LEFT_GUI   &kp LSHIFT       &kp LEFT       &kp DOWN        &kp UP  &kp RIGHT  &kp BACKSPACE
-       &kp LC(Z)    &kp LG(X)     &kp LG(C)         &none    &kp LG(V)  &double_colon   &small_arrow    &big_arrow      &none          &none
-                                                   &trans       &trans          &none          &mo 3
+&kp EXCLAMATION  &kp AT_SIGN      &kp HASH    &kp DOLLAR  &kp PERCENT      &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp TILDE      &kp GRAVE
+        &kp ESC    &sk RCTRL  &sk LEFT_ALT  &sk LEFT_GUI   &kp LSHIFT       &kp LEFT       &kp DOWN        &kp UP  &kp RIGHT  &kp BACKSPACE
+      &kp LC(Z)    &kp LG(X)     &kp LG(C)         &none    &kp LG(V)  &double_colon   &small_arrow    &big_arrow      &none          &none
+                                                  &trans       &trans          &none          &mo 3
             >;
         };
 
         sym {
             bindings = <
-  &kp EXCL     &kp AT  &kp HASH  &kp COLON  &kp SEMICOLON     &kp EQUAL  &kp N7  &kp N8  &kp N9   &kp PLUS
-  &kp BSLH   &kp PIPE  &kp LBRC   &kp LPAR       &kp LBKT  &kp ASTERISK  &kp N4  &kp N5  &kp N6  &kp MINUS
- &kp MINUS  &kp UNDER  &kp RBRC   &kp RPAR       &kp RBKT        &kp N0  &kp N1  &kp N2  &kp N3   &kp FSLH
-                                     &mo 3          &none     &kp ENTER  &trans
+ &kp EXCL     &kp AT  &kp HASH  &kp COLON  &kp SEMICOLON     &kp EQUAL  &kp N7  &kp N8  &kp N9   &kp PLUS
+ &kp BSLH   &kp PIPE  &kp LBRC   &kp LPAR       &kp LBKT  &kp ASTERISK  &kp N4  &kp N5  &kp N6  &kp MINUS
+&kp MINUS  &kp UNDER  &kp RBRC   &kp RPAR       &kp RBKT        &kp N0  &kp N1  &kp N2  &kp N3   &kp FSLH
+                                    &mo 3          &none     &kp ENTER  &trans
             >;
         };
 
         Sym2 {
             bindings = <
- &bt BT_PRV  &bt BT_NXT  &trans  &trans  &bt BT_CLR  &trans  &kp F7  &kp F8  &kp F9     &kp GRAVE
-     &trans      &trans  &trans  &trans      &trans  &trans  &kp F4  &kp F5  &kp F6     &kp TILDE
-     &trans      &trans  &trans  &trans      &trans  &trans  &kp F1  &kp F2  &kp F3  &kp QUESTION
-                                 &trans       &none  &trans  &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR  &trans  &kp F7  &kp F8  &kp F9     &kp GRAVE
+      &trans        &trans        &trans        &trans      &trans  &trans  &kp F4  &kp F5  &kp F6     &kp TILDE
+      &trans        &trans        &trans        &trans      &trans  &trans  &kp F1  &kp F2  &kp F3  &kp QUESTION
+                                                &trans       &none  &trans  &trans
             >;
         };
     };
