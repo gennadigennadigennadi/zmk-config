@@ -25,7 +25,7 @@
 
         combo_tab {
             timeout-ms = <50>;
-            key-positions = <10 11>;
+            key-positions = <11 13>;
             bindings = <&kp LCTRL>;
         };
 
@@ -55,7 +55,7 @@
 
         new_combo {
             bindings = <&kp RCTRL>;
-            key-positions = <18 19>;
+            key-positions = <18 16>;
         };
     };
 
@@ -115,10 +115,28 @@
 
         Sym2 {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR  &trans  &kp F7  &kp F8  &kp F9     &kp GRAVE
-      &trans        &trans        &trans        &trans      &trans  &trans  &kp F4  &kp F5  &kp F6     &kp TILDE
-      &trans        &trans        &trans        &trans      &trans  &trans  &kp F1  &kp F2  &kp F3  &kp QUESTION
-                                                &trans       &none  &trans  &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2       &bt BT_SEL 3    &bt BT_CLR  &trans  &kp F7  &kp F8  &kp F9     &kp GRAVE
+      &trans    &kp K_PREV    &kp C_PREV         &kp C_PLAY    &kp C_NEXT  &trans  &kp F4  &kp F5  &kp F6     &kp TILDE
+&kp C_BRI_DN  &kp C_BRI_UP    &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &trans  &kp F1  &kp F2  &kp F3  &kp QUESTION
+                                                     &trans         &none  &trans  &trans
+            >;
+        };
+
+        Layer__4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans
+            >;
+        };
+
+        Layer__5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans
             >;
         };
     };
